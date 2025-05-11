@@ -52,23 +52,30 @@
   </nav>
 
 
-    <main>
-        <section>
-            <p id="dynamicText">This text will change when you click the button.</p>
-            <button id="changeTextButton">Change Text</button>
-        </section>
-        
-        <section>
-            <h2>List of Items</h2>
-            <ul id="itemList">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-            <button id="addItemButton">Add Item</button>
-            <button id="removeItemButton">Remove Last Item</button>
-        </section>
-    </main>
+
+
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Dynamic Text and Buttons -->
+    <section class="mb-5">
+      <p id="dynamicText" class="fs-5">This text will change when you click the button.</p>
+      <button id="changeTextButton" class="btn btn-primary">Change Text</button>
+    </section>
+
+    <!-- List of Items and Controls -->
+    <section class="mb-5">
+      <h2 class="mb-3">List of Items</h2>
+      <ul id="itemList" class="list-group mb-3">
+        <li class="list-group-item">Item 1</li>
+        <li class="list-group-item">Item 2</li>
+        <li class="list-group-item">Item 3</li>
+      </ul>
+      <button id="addItemButton" class="btn btn-success me-2">Add Item</button>
+      <button id="removeItemButton" class="btn btn-danger">Remove Last Item</button>
+    </section>
+  </main>
+
 
 <footer>
         <p>© 2025 My Dynamic Web Page</p>
