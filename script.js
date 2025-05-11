@@ -21,3 +21,8 @@ function removeItem() {
         itemList.removeChild(itemList.lastChild);
     }
 }
+
+// Event listeners for buttons
+document.getElementById('changeTextButton').addEventListener('click', changeText);
+document.getElementById('addItemButton').addEventListener('click', addItem);
+document.getElementById('removeItemButton').addEventListener('click', removeItem);
