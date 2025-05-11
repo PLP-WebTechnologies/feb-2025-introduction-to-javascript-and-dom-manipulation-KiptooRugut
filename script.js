@@ -13,3 +13,11 @@ function addItem() {
     newItem.textContent = `Item ${itemList.children.length + 1}`;
     itemList.appendChild(newItem);
 }
+
+ // Function to remove the last item from the list
+function removeItem() {
+    const itemList = document.getElementById('itemList');
+    if (itemList.children.length > 0) {
+        itemList.removeChild(itemList.lastChild);
+    }
+}
